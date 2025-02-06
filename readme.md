@@ -6,7 +6,7 @@ This is a simple Recipe Management Application built with Spring Boot, JPA, and 
 
 Before you begin, ensure you have the following installed on your machine:
 
-- [Java Development Kit (JDK) 11 or higher](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Java Development Kit (JDK) 21 or higher](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [Maven](https://maven.apache.org/install.html)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
@@ -48,17 +48,17 @@ http://localhost:8080/swagger-ui/index.html
 ```
 
 
-##Project Structure
-demo - Contains the main application code
-resources - Contains application configuration files
-demo - Contains test cases
-###Key Classes
-Recipe - The entity class representing a recipe
-RecipeRepository - The repository interface for CRUD operations on recipes
-RecipeService - The service class containing business logic for managing recipes
+## Project Structure
+**demo** - Contains the main application code
+**resources** - Contains application configuration files
+**demo** - Contains test cases
+### Key Classes
+**Recipe** - The entity class representing a recipe
+**RecipeRepository** - The repository interface for CRUD operations on recipes
+**RecipeService** - The service class containing business logic for managing recipes
 
-###Troubleshooting
+### Troubleshooting
 If you encounter any issues, please check the following:
-Ensure you have the correct versions of JDK and Maven installed
-Ensure your database is running and accessible
-Check the application logs for any error messages
+- Ensure you have the correct versions of JDK and Maven installed
+- Ensure your database is running and accessible
+- Check the application logs for any error messages
